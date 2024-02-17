@@ -79,3 +79,17 @@ This project is built using the following technologies:
 - **Jest**: A delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue, and more.
 
 
+## Utilizing HTTP Requests for API Calls
+
+The project includes a collection of pre-configured HTTP request files located in the `src/_http` directory. These files are designed to facilitate quick interactions with the API endpoints, allowing you to perform API calls without needing external tools or additional code.
+
+### How to Use
+
+1. **Navigate to `src/_http` Directory**: Find the `books.http` file prepared for various API operations.
+
+2. **Send the Request**: If using Visual Studio Code, you can easily send requests with the [REST Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client). Simply click the "Send Request" link at the top of the `.http` file.
+
+### Requirements
+
+- **IDE with HTTP Client Support**: An IDE that supports executing HTTP requests directly from `.http` files, such as Visual Studio Code, is recommended. The REST Client extension is particularly useful for this purpose.
+- **Environment Setup**: Your development environment or server should be running so the API can respond to your HTTP requests.
