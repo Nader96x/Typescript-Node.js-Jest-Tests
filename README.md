@@ -58,16 +58,6 @@ npm test
 ```
 This executes tests using Jest against the MongoDB in-memory server, ensuring that all components function as expected without the need for an external MongoDB instance.
 
-## API Endpoints
-
-The application provides a set of RESTful endpoints for managing books. Here are the available endpoints and their functionalities:
-
-- `POST /books` - Create a new book. Requires a JSON body with book details.
-- `GET /books` - Retrieve a list of all books in the database.
-- `GET /books/:id` - Retrieve details of a specific book by its ID.
-- `PUT /books/:id` - Update the details of an existing book. Requires a JSON body with the updated book details.
-- `DELETE /books/:id` - Delete a book from the database by its ID.
-
 ## Built With
 
 This project is built using the following technologies:
@@ -78,6 +68,15 @@ This project is built using the following technologies:
 - **Joi**: A powerful schema description language and data validator for JavaScript. Joi allows you to create blueprints or schemas for JavaScript objects (an object that stores information) to ensure validation of key information.
 - **Jest**: A delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue, and more.
 
+## API Endpoints
+
+The application provides a set of RESTful endpoints for managing books. Here are the available endpoints and their functionalities:
+
+- `POST /books` - Create a new book. Requires a JSON body with book details.
+- `GET /books` - Retrieve a list of all books in the database.
+- `GET /books/:id` - Retrieve details of a specific book by its ID.
+- `PUT /books/:id` - Update the details of an existing book. Requires a JSON body with the updated book details.
+- `DELETE /books/:id` - Delete a book from the database by its ID.
 
 ## Utilizing HTTP Requests for API Calls
 
