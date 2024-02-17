@@ -33,6 +33,12 @@ npm install
 ```bash
 npm install
 ```
+3. Prepare the enviroment:
+
+```bash
+cp .env.exmaple .env
+```
+
 
 ### Running the Application in the developement enviroment:
 
